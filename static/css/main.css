@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Kirjainkone;
+    src: url("../kirjainkone/Kirjainkone.otf");
+}
+
+/*
+FONT LICENSE / NOTE FROM THE AUTHOR
+High summit is elegant signature font. This font have special features. It can be used on your project, photography, name tag, quotes, and etc. This font is free for use (personal and commercial)
+
+This font is 100% free to use (personal and commercial). This font inluded two files (.ttf and .otf)
+
+Follow our instagram : https://www.instagram.com/alphabetadesignstudio/
+
+Paypal account for donation : https://www.paypal.me/hartadic
+
+Thank You!!
+*/
+@font-face {
+    font-family: HighSummer;
+    src: url("../highsummer/High\ Summit.otf");
+}
+
+:root {
+    --prim-fade: #6669;
+    --secn-fade: #f002;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Kirjainkone;
+    font-size: 1.25rem;
+    color: #000b;
+
+    min-height: 100vh;
+    margin: 0;
+    padding: 4rem 0;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),
+                     /* Photo by Nathan Dumlao on Unsplash */
+                     url('../desktop.jpg');
+    background-size: cover;
+}
+
+i {
+    font-size: 1.10em;
+    font-style: normal;
+    font-variant-caps: all-small-caps;
+    letter-spacing: 3px;
+}
+
+del {
+    background-color: black;
+    color: black;
+    text-decoration: none;
+}
+
+hr {
+    border: 0;
+    border-bottom: 3px dotted var(--prim-fade);
+}
+
+.manilla-folder {
+    width: 50%;
+    margin: auto;
+    padding: 1.5rem;
+    background-image: url('../manilla-texture.jpg');
+    box-shadow: 5px 5px 5px #222a;
+    border-radius: 3px;
+}
+
+.paper-sheet {
+    position: relative;
+    background-image: url('../seamless_paper_texture.png');
+    padding: 2rem;
+    box-shadow: 12px 12px 10px #2225;
+}
+
+.paper-sheet__header {
+    position: relative;
+    color: var(--prim-fade);
+    border: 3px dotted var(--prim-fade);
+    padding: 1.5rem 0;
+}
+
+.paper-sheet__header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.paper-sheet__subheader {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    letter-spacing: 3rem;
+    font-size: 4rem;
+    color: var(--secn-fade);
+    width: 100%;
+    margin: 0;
+    
+}
+
+.paper-sheet__main {
+    padding: 0 1rem;
+    border-left: 3px dotted var(--prim-fade);
+    border-right: 3px dotted var(--prim-fade);
+}
+
+.paper-sheet__section {
+    position: relative;
+}
+
+.paper-sheet__section ul {
+    list-style-type: '*   ';
+}
+
+.paper-sheet__section li {
+    margin-bottom: 5px;
+}
+
+.stamp-dev {
+    position: absolute;
+    height: 225px;
+    right: 25px;
+    bottom: 25px;
+    rotate: -20deg;
+    opacity: 0.35;
+    -moz-user-select: none;
+}
+
+.agent-mugshot {
+    position: absolute;
+    z-index: 5;
+    right: 20px;
+    top: 35px;
+    rotate: 10deg;
+    box-shadow: 10px 10px 10px #222a;
+}
+
+.paperclip {
+    position: absolute;
+    left: 0;
+    top: -24px;
+    rotate: 80deg;
+}
+
+.post-it {
+    font-family: HighSummer;
+    position: absolute;
+    z-index: 5;
+    right: 20px;
+    top: -30px;
+    rotate: -10deg;
+    width: 200px;
+    height: 200px;
+    padding: 1rem;
+    background-color: #FFFFA5;
+    box-shadow: 10px 10px 10px #222a;
+}
