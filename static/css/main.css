@@ -71,6 +71,30 @@ hr {
     border-radius: 3px;
 }
 
+.paper-sheet__tabs {
+    position: absolute;
+    top: 40px;
+    margin-left: 7rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.paper-sheet__tab {
+    display: block;
+    text-align: center;
+    background-image: url('../seamless_paper_texture.png');
+    padding: 1rem;
+    width: 7rem;
+    margin-right: 0.5rem;
+    border-top-right-radius: 10px;
+    box-shadow: 12px 12px 10px #2225;
+}
+
+.paper-sheet__tab--not-active {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+                      url('../seamless_paper_texture.png');
+}
+
 .paper-sheet {
     position: relative;
     background-image: url('../seamless_paper_texture.png');

@@ -1,0 +1,14 @@
+.blog-anchor {
+    display: inline-block;
+    width: 5rem;
+    padding: 0 5px;
+    text-align: center;
+    position: absolute;
+    left: -100px;
+    text-decoration: none;
+    background-image: linear-gradient(
+        to left,
+        rgba(255, 0, 0, 0.5),
+        rgba(255, 0, 0, 0.5) 85%,
+        rgba(255, 255, 255, 0.5) 85%);
+}
