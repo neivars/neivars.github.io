@@ -126,7 +126,7 @@ hr {
     height: 225px;
     right: 25px;
     bottom: 25px;
-    rotate: -20deg;
+    transform: rotate(-20deg);
     opacity: 0.35;
     -moz-user-select: none;
 }
@@ -136,7 +136,7 @@ hr {
     z-index: 5;
     right: 20px;
     top: 35px;
-    rotate: 10deg;
+    transform: rotate(10deg);
     box-shadow: 10px 10px 10px #222a;
 }
 
@@ -144,7 +144,7 @@ hr {
     position: absolute;
     left: 0;
     top: -24px;
-    rotate: 80deg;
+    transform: rotate(80deg);
 }
 
 .post-it {
@@ -153,7 +153,7 @@ hr {
     z-index: 5;
     right: 20px;
     top: -30px;
-    rotate: -10deg;
+    transform: rotate(-10deg);
     width: 200px;
     height: 200px;
     padding: 1rem;
